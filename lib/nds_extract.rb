@@ -18,8 +18,7 @@ def directors_totals(nds)
       result[name] += movie[:worldwide_gross]
     end
   
-    # this can also be done in one line using the .reduce method
-    #result[director[:name]] = director[:movies].reduce(0){|sum,e| sum + e[:worldwide_gross]}
+
   end
   
   return result
